@@ -5,6 +5,9 @@
 
 void main(void) {
     int sum;
-    sum = 15 + 37;
-    printf("15+37=%d\n",sum);
+	int num1, num2;
+	num1 = 15;
+	num2 = 37;
+    sum = num1 + num2;
+    printf("%d+%d=%d\n",num1,num2,sum);
 }
